@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import plost
-# import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 # ~~~~~~~~~~~~Load the data for Bar Chart 
