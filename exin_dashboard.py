@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from plotly.subplots import make_subplots
 
 # ~~~~~~~~~~~~Load the data for Bar Chart 
 data = pd.read_csv('https://raw.githubusercontent.com/Deymomanka/data_by_continent/main/inColumn_bycontinent.csv')
