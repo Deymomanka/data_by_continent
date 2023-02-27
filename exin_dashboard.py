@@ -1,5 +1,11 @@
+pip install plotly==5.13.1
+
 import streamlit as st
 import pandas as pd
+import plotly.express as px
+import plotly.graph_objs as go
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 
 # ~~~~~~~~~~~~Load the data for Bar Chart 
 data = pd.read_csv('https://raw.githubusercontent.com/Deymomanka/data_by_continent/main/inColumn_bycontinent.csv')
