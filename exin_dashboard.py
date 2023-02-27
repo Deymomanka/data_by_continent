@@ -71,7 +71,8 @@ with c1:
     yaxis_title='100 million Yen' # set the y-axis title
 )
     
-    st.plotly_chart(fig)
+    #st.plotly_chart(fig)
+    plotly_chart(fig)
 # with c2:
 #     st.markdown('### Donut chart')
 #     plost.donut_chart(
