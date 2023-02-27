@@ -1,4 +1,4 @@
-pip install plotly==5.13.1
+pip install plotly
 
 import streamlit as st
 import pandas as pd
